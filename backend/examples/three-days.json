@@ -1,0 +1,388 @@
+{
+  "lunchMinutes": 30,
+  "workers": [
+    {
+      "id": "alex",
+      "name": "Alex",
+      "home": {
+        "lat": 52.35,
+        "lon": 4.86
+      },
+      "skills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "home": {
+        "lat": 52.39,
+        "lon": 4.94
+      },
+      "skills": [
+        "electrical",
+        "gas"
+      ]
+    }
+  ],
+  "shifts": [
+    {
+      "workerId": "alex",
+      "date": "2026-10-05",
+      "start": "08:00",
+      "end": "16:00"
+    },
+    {
+      "workerId": "sam",
+      "date": "2026-10-05",
+      "start": "08:00",
+      "end": "16:00"
+    },
+    {
+      "workerId": "alex",
+      "date": "2026-10-06",
+      "start": "08:00",
+      "end": "16:00"
+    },
+    {
+      "workerId": "sam",
+      "date": "2026-10-06",
+      "start": "08:00",
+      "end": "16:00"
+    },
+    {
+      "workerId": "alex",
+      "date": "2026-10-07",
+      "start": "08:00",
+      "end": "16:00"
+    },
+    {
+      "workerId": "sam",
+      "date": "2026-10-07",
+      "start": "08:00",
+      "end": "16:00",
+      "lunch": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t01",
+      "name": "Socket repair",
+      "location": {
+        "lat": 52.38207,
+        "lon": 4.83942
+      },
+      "durationMinutes": 30,
+      "deadline": "2026-10-05T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t02",
+      "name": "Lighting install",
+      "location": {
+        "lat": 52.37662,
+        "lon": 4.94826
+      },
+      "durationMinutes": 75,
+      "deadline": "2026-10-05T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t03",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.36469,
+        "lon": 4.83908
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-05T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t04",
+      "name": "Replace fuse box",
+      "location": {
+        "lat": 52.33473,
+        "lon": 4.90351
+      },
+      "durationMinutes": 60,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t05",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.37617,
+        "lon": 4.88157
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-07T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t06",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.35317,
+        "lon": 4.84875
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-05T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t07",
+      "name": "Replace fuse box",
+      "location": {
+        "lat": 52.37482,
+        "lon": 4.91866
+      },
+      "durationMinutes": 60,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t08",
+      "name": "Replace fuse box",
+      "location": {
+        "lat": 52.35979,
+        "lon": 4.90121
+      },
+      "durationMinutes": 60,
+      "deadline": "2026-10-07T12:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t09",
+      "name": "Replace fuse box",
+      "location": {
+        "lat": 52.37952,
+        "lon": 4.89453
+      },
+      "durationMinutes": 60,
+      "deadline": "2026-10-07T12:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t10",
+      "name": "Lighting install",
+      "location": {
+        "lat": 52.36725,
+        "lon": 4.95005
+      },
+      "durationMinutes": 75,
+      "deadline": "2026-10-06T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t11",
+      "name": "Socket repair",
+      "location": {
+        "lat": 52.39355,
+        "lon": 4.92087
+      },
+      "durationMinutes": 30,
+      "deadline": "2026-10-06T12:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t12",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.37202,
+        "lon": 4.94377
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-05T16:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t13",
+      "name": "Annual inspection",
+      "location": {
+        "lat": 52.37872,
+        "lon": 4.83952
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-06T16:00",
+      "requiredSkills": []
+    },
+    {
+      "id": "t14",
+      "name": "Lighting install",
+      "location": {
+        "lat": 52.39057,
+        "lon": 4.84976
+      },
+      "durationMinutes": 75,
+      "deadline": "2026-10-06T12:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t15",
+      "name": "Gas leak check",
+      "location": {
+        "lat": 52.40696,
+        "lon": 4.84009
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-06T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t16",
+      "name": "Lighting install",
+      "location": {
+        "lat": 52.35721,
+        "lon": 4.87552
+      },
+      "durationMinutes": 75,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t17",
+      "name": "Gas leak check",
+      "location": {
+        "lat": 52.3355,
+        "lon": 4.84217
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t18",
+      "name": "Socket repair",
+      "location": {
+        "lat": 52.33485,
+        "lon": 4.92119
+      },
+      "durationMinutes": 30,
+      "deadline": "2026-10-06T12:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t19",
+      "name": "Annual inspection",
+      "location": {
+        "lat": 52.35277,
+        "lon": 4.88015
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": []
+    },
+    {
+      "id": "t20",
+      "name": "Annual inspection",
+      "location": {
+        "lat": 52.40525,
+        "lon": 4.87621
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-06T12:00",
+      "requiredSkills": []
+    },
+    {
+      "id": "t21",
+      "name": "Lighting install",
+      "location": {
+        "lat": 52.33472,
+        "lon": 4.92987
+      },
+      "durationMinutes": 75,
+      "deadline": "2026-10-05T16:00",
+      "requiredSkills": [
+        "electrical"
+      ]
+    },
+    {
+      "id": "t22",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.36183,
+        "lon": 4.94919
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-07T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t23",
+      "name": "Gas leak check",
+      "location": {
+        "lat": 52.36593,
+        "lon": 4.90143
+      },
+      "durationMinutes": 45,
+      "deadline": "2026-10-05T12:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t24",
+      "name": "Boiler service",
+      "location": {
+        "lat": 52.38651,
+        "lon": 4.95824
+      },
+      "durationMinutes": 90,
+      "deadline": "2026-10-06T16:00",
+      "requiredSkills": [
+        "gas"
+      ]
+    },
+    {
+      "id": "t25",
+      "name": "Rooftop unit swap",
+      "location": {
+        "lat": 52.372,
+        "lon": 4.9
+      },
+      "durationMinutes": 120,
+      "deadline": "2026-10-07T16:00",
+      "requiredSkills": [
+        "crane"
+      ]
+    }
+  ]
+}
