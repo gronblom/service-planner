@@ -5,6 +5,8 @@ onto workers' shifts and prints the result. There's no HTTP API yet.
 
 ## Run it
 
+Needs JDK 27 and Maven 3.9+.
+
 ```sh
 cd backend
 mvn -q compile exec:java                                   # uses examples/three-days.json
